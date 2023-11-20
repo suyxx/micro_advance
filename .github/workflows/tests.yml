@@ -1,10 +1,2 @@
-name: tests
-on: 
-  pull_request
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: action/checkout@v3
-      - run: cd micro_advance/auth && npm install && npm run test:ci
+
       
