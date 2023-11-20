@@ -5,6 +5,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v2
+      - uses: action/checkout@v3
       - run: cd auth && npm install && npm run test:ci
       
